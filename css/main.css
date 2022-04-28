@@ -1,0 +1,115 @@
+#cartItems{
+    font-size: medium;
+}
+
+.titleTag{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:xx-large;
+    font-style: italic;
+}
+
+.movies{
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-top: 100px;
+}
+
+.moviesZ{
+    padding-left: 20px;
+    padding-bottom: 2opx;
+}
+
+.top{
+    padding-top: 20px;
+}
+.movieCards{
+    float: inline-start;
+}
+
+.btnDetails{
+    background-color: white;
+    color: blue;
+    margin: 2px blue;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+.btnAddToCart{
+    background-color: green;
+    color: white;
+    margin: green;
+
+    float: inline-start;
+}
+
+.money{
+    font-weight: bold;
+    float: right;
+    font-size: large;
+    padding: 5px;
+    padding-right: 10px;
+    float: right;
+}
+
+.footer{
+    background-color: black;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.headerTable{
+    background-color: black;
+}
+
+.ths{
+    color: white;
+    padding: 5px;
+}
+
+td{
+    color: black;
+}
+
+.heading{
+    padding-left: 5px;
+}
+
+.modalLabel{
+    font-weight: bold;
+    color: black;
+}
+
+.modalElements{
+    font-weight: lighter;
+}
+
+.chosen{
+    text-align: left;
+}
+
+#allCounted{
+    color: red;
+}
+
+hr.boldLine{
+   border: 5px solid black;
+}
+
+.removeMe{
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    border: 0px;
+    font-size:x-small;
+}
+
+.items{
+    border-radius: 100%;
+    background-color: rgb(19, 148, 165);
+    color: white;
+    border: 0px;
+    font-size:x-small;
+}
