@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>NevMovies</title>
+</head>
+<body onload="cartPageLoad()">
+    <header> 
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top"> 
+            <a class="navbar-brand" href="home.html">
+                <img src="images/homeCon.png" width="45" height="45" alt="">
+            </a> 
+            <a class="navbar-brand" href="home.html">
+                <p class="titleTag">NevMovies</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar"> 
+                <span class="navbar-toggler-icon"></span> 
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapseNavbar">
+                <ul class="navbar-nav"> 
+                    <li class="nav-item active">
+                        <a class="nav-link navbar-right" href="cart.html">
+                            <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li> 
+                    <li class="nav-item active">
+                        <p id="cartItems"></p>
+                    </li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+
+    <div class="container-fluid movies">
+        <h2>Cart</h2>
+        <div>
+            <table class="table ths" id="CartTable">
+                <tr class="headerTable">
+                    <th>Movie</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Total Count</th>
+                </tr>
+                <tr id="totalLabel">
+                    <td></td>
+                    <td></td>
+                    <td><b>Total:</b></td>
+                    <td id="allCounted"></td>
+                </tr>
+            </table>
+            <h4 id="disappear">No items in your cart.</h4>
+        </div>
+    </div>
+
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascript/bootstrap.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
